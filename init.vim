@@ -24,7 +24,7 @@ Plug 'tbodt/deoplete-tabnine', { 'do': './install.sh' }
 Plug 'vim-ruby/vim-ruby'
 Plug 'scrooloose/nerdtree'
 Plug 'junegunn/fzf.vim'
-Plug 'junegunn/fzf'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'Chiel92/vim-autoformat'
 Plug 'godlygeek/tabular'
 Plug 'plasticboy/vim-markdown'
